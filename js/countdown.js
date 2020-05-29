@@ -1,7 +1,6 @@
 // Javascript
 $(function() {
   var currentDate = new Date();
-//  $('.countdown').countdown("yyyy/MM/dd/hh:mm:ss", function(event)
 	{
     $this = $(this);
     switch(event.type) {
