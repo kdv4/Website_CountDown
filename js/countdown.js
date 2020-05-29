@@ -2,9 +2,6 @@
 $(function() {
   var currentDate = new Date();
 //  $('.countdown').countdown("yyyy/MM/dd/hh:mm:ss", function(event)
-//	Delete line 6
-  $('.time').countdown(25 * 24 * 60 * 60 * 1000 + currentDate.valueOf(), function(event)
-//	until here
 	{
     $this = $(this);
     switch(event.type) {
